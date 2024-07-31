@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-25 02:44:35.107439",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fruit",
+  "fruit_acres"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "fruit",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Fruit",
+   "options": "Item"
+  },
+  {
+   "columns": 3,
+   "fieldname": "fruit_acres",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Fruit Acres",
+   "precision": "2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-29 10:32:48.623178",
+ "modified_by": "Administrator",
+ "module": "Agriculture",
+ "name": "Fruit Acreage",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

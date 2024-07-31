@@ -1,0 +1,32 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-07-20 05:58:07.210213",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2024-07-20 05:58:07.210213",
+ "modified_by": "Administrator",
+ "module": "Agriculture",
+ "name": "Total Farmers by County",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Farmer",
+ "report_name": "Total Farmers by County",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Agriculture Manager"
+  },
+  {
+   "role": "Agriculture User"
+  },
+  {
+   "role": "Administrator"
+  }
+ ]
+}

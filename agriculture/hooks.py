@@ -116,6 +116,31 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
+doc_events = {
+    "Farmer Supplies Entry": {
+        "on_submit": "agriculture.agriculture.doctype.farmer_supplies_entry.farmer_supplies_entry.create_stock_entry"
+    }
+}
+
+# doc_events = {
+#    "Farmer": {
+#        "after_save": "agriculture.agriculture.generate_contract_pdf.after_save"
+#    }
+# }
+
+# doc_events = {
+#    "Farmer": {
+#        "before_save": "agriculture.agriculture.generate_contract_pdf.before_save"
+#    }
+# }
+
+doc_events = {
+    "Farmer": {
+        "after_insert": "agriculture.agriculture.doctype.farmer.farmer.after_insert"
+    }
+}
+
+
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",

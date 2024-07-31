@@ -1,0 +1,331 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-07-02 16:20:43.280084",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_tab",
+  "basic_information",
+  "farmer",
+  "naming_series",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "farmer_name",
+  "column_break_b3kq4",
+  "gender",
+  "date_of_birth",
+  "salutation",
+  "government_id",
+  "column_break_4al8i",
+  "date_of_joining",
+  "status",
+  "image",
+  "id_photo",
+  "amended_from",
+  "contact_location",
+  "cell_number",
+  "email",
+  "farmer_group",
+  "registration_document",
+  "column_break_dciv1",
+  "address",
+  "county",
+  "sub_county",
+  "village",
+  "farm_location_tab",
+  "farm1_address",
+  "fruit_acreage",
+  "longitude",
+  "latitude",
+  "column_break_bivgp",
+  "location_picker",
+  "location_button",
+  "farmer_supplies_tab",
+  "supply_records_section",
+  "supplies"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Overview"
+  },
+  {
+   "fieldname": "basic_information",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "farmer",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Farmer",
+   "no_copy": 1,
+   "print_hide": 1,
+   "report_hide": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "FF-FARM-"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last name"
+  },
+  {
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Full name"
+  },
+  {
+   "fieldname": "column_break_b3kq4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Link",
+   "label": "Salutation",
+   "options": "Salutation"
+  },
+  {
+   "fieldname": "government_id",
+   "fieldtype": "Data",
+   "label": "Government ID"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive\nLeft\nPending Approval",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4al8i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "label": "Date of Joining"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Profile Image"
+  },
+  {
+   "fieldname": "id_photo",
+   "fieldtype": "Attach Image",
+   "label": "ID Photo"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Farmer",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "contact_location",
+   "fieldtype": "Tab Break",
+   "label": "Contact & Location"
+  },
+  {
+   "fieldname": "cell_number",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "column_break_dciv1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "P.O Box",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "county",
+   "fieldtype": "Link",
+   "label": "County",
+   "options": "County"
+  },
+  {
+   "fieldname": "farm_location_tab",
+   "fieldtype": "Tab Break",
+   "label": "Farm Location"
+  },
+  {
+   "fieldname": "farm1_address",
+   "fieldtype": "Small Text",
+   "label": "Farm Address",
+   "max_height": "90px"
+  },
+  {
+   "fieldname": "column_break_bivgp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Float",
+   "label": "Longitude",
+   "precision": "6"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Float",
+   "label": "Latitude",
+   "precision": "6"
+  },
+  {
+   "fieldname": "location_picker",
+   "fieldtype": "HTML",
+   "label": "Location Picker"
+  },
+  {
+   "fieldname": "farmer_supplies_tab",
+   "fieldtype": "Tab Break",
+   "label": "Farmer Supplies"
+  },
+  {
+   "fieldname": "supply_records_section",
+   "fieldtype": "Section Break",
+   "label": "Supply Records"
+  },
+  {
+   "fieldname": "supplies",
+   "fieldtype": "Table",
+   "label": "Supplies",
+   "options": "Farmer Supplies"
+  },
+  {
+   "fieldname": "location_button",
+   "fieldtype": "HTML",
+   "label": "Button"
+  },
+  {
+   "fieldname": "registration_document",
+   "fieldtype": "Data",
+   "label": "Farmer Contract"
+  },
+  {
+   "fieldname": "fruit_acreage",
+   "fieldtype": "Table",
+   "label": "Crops & Acreage",
+   "options": "Fruit Acreage"
+  },
+  {
+   "fieldname": "sub_county",
+   "fieldtype": "Link",
+   "label": "Sub-County",
+   "options": "Sub-County"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fieldname": "farmer_group",
+   "fieldtype": "Link",
+   "label": "Farmer Group",
+   "options": "Farmer Group"
+  }
+ ],
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-29 10:38:49.251210",
+ "modified_by": "Administrator",
+ "module": "Agriculture",
+ "name": "Farmer",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Agriculture Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Agriculture User",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "farmer_name"
+}

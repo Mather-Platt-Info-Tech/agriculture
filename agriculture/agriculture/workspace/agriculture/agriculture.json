@@ -1,0 +1,149 @@
+{
+ "charts": [
+  {
+   "chart_name": "Farmer Registrations by Month",
+   "label": "Farmer Registrations by Month"
+  }
+ ],
+ "content": "[{\"id\":\"-DmiuFttT1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Agriculture</span>\",\"col\":12}},{\"id\":\"8NU7VNh-kv\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Farmer Registrations by Month\",\"col\":12}},{\"id\":\"xPWqZSZ3HU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Farmers</b></span>\",\"col\":6}},{\"id\":\"aI2FZDDz-w\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Farmer Supplies</b></span>\",\"col\":6}},{\"id\":\"qWUCp_3UN4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Farmers List\",\"col\":3}},{\"id\":\"7-tFGrqIVx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Sign-ups\",\"col\":3}},{\"id\":\"8jxb8PWuHg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Supply Entries\",\"col\":3}},{\"id\":\"3l3CEBUfs6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Supply Entry\",\"col\":3}},{\"id\":\"8M5eZo7SoI\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"test\",\"col\":4}},{\"id\":\"gXOb91wuAV\",\"type\":\"card\",\"data\":{\"card_name\":\"Farmer Reports\",\"col\":4}},{\"id\":\"w5qvjtJMiS\",\"type\":\"card\",\"data\":{\"card_name\":\"Fruit Delivery Reports\",\"col\":4}}]",
+ "creation": "2024-07-07 05:46:10.169615",
+ "custom_blocks": [
+  {
+   "custom_block_name": "test",
+   "label": "test"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "today",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Agriculture",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farmer Reports",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Registrations by Month",
+   "link_count": 0,
+   "link_to": "Farmer Registrations by Month",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farmers by Age",
+   "link_count": 0,
+   "link_to": "Farmers by Age",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farmers by Sex",
+   "link_count": 0,
+   "link_to": "Farmers by Sex",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farmers by County",
+   "link_count": 0,
+   "link_to": "Total Farmers by County",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fruit Delivery Reports",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Deliveries per month",
+   "link_count": 0,
+   "link_to": "Deliveries per Fruit per Month",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Deliveries per Center",
+   "link_count": 0,
+   "link_to": "Fruits per Collections Center",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-07-25 04:28:00.720121",
+ "modified_by": "Administrator",
+ "module": "Agriculture",
+ "name": "Agriculture",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "New Sign-ups",
+   "type": "URL",
+   "url": "https://feastfoodsdemo.mplattinfotech.com/app/farmer/view/list?status=Pending%20Approval"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Farmers List",
+   "link_to": "Farmer",
+   "stats_filter": "[[\"Farmer\",\"status\",\"=\",\"Active\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Supply Entries",
+   "link_to": "Farmer Supplies Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add Supply Entry",
+   "link_to": "Farmer Supplies Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Agriculture"
+}
